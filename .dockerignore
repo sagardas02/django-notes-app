@@ -1,0 +1,25 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.*
+
+# 🔥 CRITICAL: Ignore MySQL data
+data/
+mysql/
+db/
+
+# Node (if any)
+node_modules/
+
+# OS / Editor junk
+.DS_Store
+.vscode/
